@@ -100,7 +100,6 @@
         <properties profile="!prod">
             <item name="pathPatternsByGroupName" type="map">
                 <entry name="appmon">
-                    +: /appmon
                     +: /appmon/**
                 </entry>
             </item>
@@ -108,7 +107,6 @@
         <properties profile="prod">
             <item name="pathPatternsByGroupName" type="map">
                 <entry name="appmon">
-                    +: /appmon
                     +: /appmon/**
                 </entry>
             </item>

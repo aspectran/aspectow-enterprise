@@ -15,7 +15,7 @@ domain: {
         url: /appmon/backend
     }
 }
-instance: {
+app: {
     name: root
     title: Root
     event: {
@@ -62,7 +62,7 @@ instance: {
         sampleInterval: 300
     }
 }
-instance: {
+app: {
     name: appmon
     title: AppMon
     hidden: false

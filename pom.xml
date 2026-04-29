@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.aspectran</groupId>
-    <artifactId>aspectow</artifactId>
+    <artifactId>aspectow-enterprise</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <name>Aspectow Enterprise Edition</name>

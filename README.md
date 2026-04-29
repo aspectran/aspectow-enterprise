@@ -24,12 +24,12 @@ Follow these steps to build Aspectow from the source code:
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/aspectran/aspectow.git
+    git clone https://github.com/aspectran/aspectow-enterprise.git
     ```
 
 2.  **Navigate to the project directory:**
     ```sh
-    cd aspectow
+    cd aspectow-enterprise
     ```
 
 3.  **Build the project with Maven:**

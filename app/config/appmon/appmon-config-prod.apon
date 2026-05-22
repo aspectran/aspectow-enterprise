@@ -4,8 +4,6 @@ pollingConfig: {
     pollingInterval: 3000
     # The duration in milliseconds after which an inactive polling session expires
     sessionTimeout: 30000
-    # The initial capacity of the shared message buffer
-    initialBufferSize: 9999
 }
 app: {
     id: root

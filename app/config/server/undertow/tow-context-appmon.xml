@@ -29,7 +29,7 @@
                 <property name="sessionTrackingModes" type="set">
                     <value>#{class:jakarta.servlet.SessionTrackingMode^COOKIE}</value>
                 </property>
-                <property name="path" value="/"/>
+                <property name="path" value="/%{tow.context.appmon.name}"/>
                 <properties profile="prod">
                     <item name="domain" value="%{tow.server.domain}"/>
                 </properties>

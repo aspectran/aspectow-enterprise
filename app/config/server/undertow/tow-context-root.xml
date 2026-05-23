@@ -8,9 +8,7 @@
     </description>
 
     <environment>
-        <properties>
-            <item name="tow.context.root.name">root</item>
-        </properties>
+        <property name="tow.context.root.name">root</property>
     </environment>
 
     <bean id="tow.context.root.servletContext"
@@ -79,16 +77,14 @@
                         maxIdleSecondsForNew: 60
                         evictionIdleSecondsForNew: 30
                         scavengingIntervalSeconds: 90
-                        clusterEnabled: true
+                        clusterEnabled: false
                     </argument>
                 </bean>
             </item>
             <item name="sessionStore">
                 <bean class="com.aspectran.core.component.session.FileSessionStoreFactoryBean">
-                    <properties>
-                        <item name="storeDir">/work/_sessions/%{tow.context.root.name}</item>
-                        <item name="gracePeriodSecs" valueType="int">30</item>
-                    </properties>
+                    <property name="storeDir">/work/_sessions/%{tow.context.root.name}</property>
+                    <property name="gracePeriodSecs" valueType="int">30</property>
                 </bean>
             </item>
         </properties>

@@ -22,7 +22,7 @@
                 <property name="base">/webapps/%{tow.context.appmon.name}</property>
             </bean>
         </property>
-        <property name="scratchDir">/work/_webapps/%{tow.context.appmon.name}</property>
+        <property name="scratchDir">%{system:aspectran.workPath:/work}/_webapps/%{tow.context.appmon.name}</property>
         <property name="sessionManager">#{tow.context.appmon.sessionManager}</property>
         <property name="servletSessionConfig">
             <bean class="io.undertow.servlet.api.ServletSessionConfig">
@@ -57,16 +57,6 @@
                 <property name="bufferSize" valueType="int">1024</property>
             </bean>
         </property>
-        <properties profile="jsp">
-            <item name="servletContainerInitializers" type="array">
-                <bean class="com.aspectran.undertow.server.servlet.TowJasperInitializer">
-                    <property name="tldResources" type="array">
-                        <value>classpath:com/aspectran/web/support/tags/aspectran.tld</value>
-                        <value>/webapps/%{tow.context.appmon.name}/WEB-INF/taglibs/</value>
-                    </property>
-                </bean>
-            </item>
-        </properties>
     </bean>
 
     <bean id="tow.context.appmon.sessionManager"
@@ -87,7 +77,7 @@
             </item>
             <item name="sessionStore">
                 <bean class="com.aspectran.core.component.session.FileSessionStoreFactoryBean">
-                    <property name="storeDir">/work/_sessions/%{tow.context.appmon.name}</property>
+                    <property name="storeDir">%{system:aspectran.workPath:/work}/_sessions/%{tow.context.appmon.name}</property>
                 </bean>
             </item>
         </properties>

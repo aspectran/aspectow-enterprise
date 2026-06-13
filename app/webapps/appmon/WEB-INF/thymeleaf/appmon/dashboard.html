@@ -31,7 +31,7 @@
     </th:block>
 </head>
 <body>
-    <div layout:fragment="content" class="container">
+    <th:block layout:fragment="content" class="container">
         <div class="row">
             <div class="node metrics-bar full-width">
                 <div class="title">
@@ -168,7 +168,7 @@
                 <pre class="console"></pre>
             </div>
         </div>
-    </div>
+    </th:block>
 
     <script layout:fragment="script" th:inline="javascript">
         $(function () {

@@ -1,0 +1,13 @@
+# Cluster-wide settings
+cluster: {
+    id: cluster1
+    mode: direct  # direct or gateway
+    scheduler: {
+        releasedOnUnlock: false
+    }
+}
+group: {
+    id: localhost
+    title: Aspectow Enterprise
+    description: This group is for Aspectow Enterprise.
+}

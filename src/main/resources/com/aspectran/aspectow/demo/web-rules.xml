@@ -31,7 +31,6 @@
         </settings>
     </aspect>
 
-    <append resource="aspectow/demo/home/home.xml"/>
-    <append resource="aspectow/demo/home/monitoring.xml"/>
+    <append resource="com/aspectran/aspectow/demo/home/home.xml"/>
 
 </aspectran>

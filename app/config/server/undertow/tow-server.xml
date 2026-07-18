@@ -99,15 +99,15 @@
           scope="prototype">
         <properties profile="!prod">
             <item name="pathPatternsByGroupName" type="map">
-                <entry name="appmon">
-                    +: /appmon/**
+                <entry name="console">
+                    +: /console/**
                 </entry>
             </item>
         </properties>
         <properties profile="prod">
             <item name="pathPatternsByGroupName" type="map">
-                <entry name="appmon">
-                    +: /appmon/**
+                <entry name="console">
+                    +: /console/**
                 </entry>
             </item>
         </properties>

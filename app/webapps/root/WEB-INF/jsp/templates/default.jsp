@@ -93,7 +93,7 @@
             </div>
             <div class="top-bar-right d-lg-flex align-items-center gap-3">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="<aspectran:url value="/monitoring/"/>">Monitoring</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<aspectran:url value="/console/"/>">Console</a></li>
                 </ul>
                 <div class="quick-search-box m-2 mx-md-3 m-lg-0">
                     <form name="google_quick_search" role="search">

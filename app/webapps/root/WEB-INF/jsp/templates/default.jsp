@@ -28,29 +28,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google" content="notranslate">
     <title>${empty page.title ? "Aspectow Sample Applications" : page.title}</title>
-    <link rel="mask-icon" href="https://assets.aspectran.com/img/aspectran-logo.svg" color="#4B555A">
-    <link rel="apple-touch-icon" sizes="57x57" href="https://assets.aspectran.com/img/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="https://assets.aspectran.com/img/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://assets.aspectran.com/img/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="https://assets.aspectran.com/img/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="https://assets.aspectran.com/img/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="https://assets.aspectran.com/img/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="https://assets.aspectran.com/img/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="https://assets.aspectran.com/img/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://assets.aspectran.com/img/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="https://assets.aspectran.com/img/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://assets.aspectran.com/img/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://assets.aspectran.com/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="https://assets.aspectran.com/img/favicon-96x96.png">
-    <meta name="msapplication-TileImage" content="https://assets.aspectran.com/img/ms-icon-144x144.png">
-    <meta name="msapplication-TileColor" content="#4B555A">
-    <link rel="stylesheet" type="text/css" href="https://assets.aspectran.com/bootstrap@5.3.8/css/aspectran.css?v=20260321"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap">
+    <link rel="mask-icon" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/aspectran-logo.svg" color="#4B555A"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/apple-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/apple-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/apple-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/apple-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/apple-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/apple-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/favicon-16x16.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/favicon-96x96.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/android-icon-192x192.png"/>
+    <meta name="msapplication-TileImage" content="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/img/ms-icon-144x144.png"/>
+    <meta name="msapplication-TileColor" content="#4B555A"/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&amp;display=swap"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/bootstrap@5.3.8/css/aspectran.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" integrity="sha256-pdY4ejLKO67E0CM2tbPtq1DJ3VGDVVdqAR6j3ZwdiE4=" crossorigin="anonymous"/>
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" integrity="sha256-pdY4ejLKO67E0CM2tbPtq1DJ3VGDVVdqAR6j3ZwdiE4=" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="https://assets.aspectran.com/js/navigation.js?v=20250923"></script>
-    <script src="https://assets.aspectran.com/js/theme-toggler.js?v=20251005"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/js/navigation.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/aspectran/aspectran-assets@main/assets/js/theme-toggler.js"></script>
 </head>
 <body id="top-of-page" class="${page.style}" itemscope itemtype="https://schema.org/WebPage">
 <nav id="navigation" class="navbar navbar-expand-lg" data-bs-theme="dark">

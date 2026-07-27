@@ -59,7 +59,7 @@
         <maven.compiler.parameters>true</maven.compiler.parameters>
 
         <aspectran.version>9.6.4</aspectran.version>
-        <aspectow.console.version>4.0.0-SNAPSHOT</aspectow.console.version>
+        <aspectow.console.version>4.0.0</aspectow.console.version>
     </properties>
 
     <repositories>

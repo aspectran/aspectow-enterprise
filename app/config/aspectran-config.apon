@@ -11,6 +11,7 @@ system: {
         # which is useful for performance monitoring and debugging.
         jboss.threads.eqe.statistics: true
         jboss.threads.eqe.statistics.active-count: true
+        aspectran.profiles.base.console: h2,console.ui
     }
 }
 context: {
@@ -29,6 +30,9 @@ context: {
     profiles: {
         default: [
             dev
+        ]
+        base: [
+            console.ui
         ]
     }
     autoReload: {

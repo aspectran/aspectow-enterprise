@@ -95,9 +95,11 @@
                 </ul>
             </div>
             <div class="top-bar-right d-lg-flex align-items-center gap-3">
+                <aspectran:profile expression="console.ui">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="<aspectran:url value="/console/"/>">Console</a></li>
                 </ul>
+                </aspectran:profile>
                 <div class="quick-search-box m-2 mx-md-3 m-lg-0">
                     <form name="google_quick_search" role="search">
                         <div class="input-group">

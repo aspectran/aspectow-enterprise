@@ -59,9 +59,9 @@
     </div>
     <div class="col">
         <div class="card h-100 shadow-sm">
-            <a class="d-none d-md-block" href="<aspectran:url value="/monitoring/"/>" title="View logs with AppMon"><img src="https://aspectran.com/images/projects/aspectow-appmon.png" class="img-fluid"/></a>
+            <a class="d-none d-md-block" href="https://public.aspectran.com/monitoring/" title="View logs with AppMon"><img src="https://aspectran.com/images/projects/aspectow-appmon.png" class="img-fluid"/></a>
             <div class="card-header">
-                <a href="<aspectran:url value="/monitoring/"/>">Aspectow AppMon</a>
+                <a href="<aspectran:url value="https://public.aspectran.com/monitoring/"/>">Aspectow AppMon</a>
             </div>
             <div class="card-body">
                 <p class="card-text">Aspectow AppMon is a lightweight, real-time monitoring solution for applications based on the Aspectran framework.</p>

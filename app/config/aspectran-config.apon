@@ -11,7 +11,14 @@ system: {
         # which is useful for performance monitoring and debugging.
         jboss.threads.eqe.statistics: true
         jboss.threads.eqe.statistics.active-count: true
+        # Sets the base active profiles for the console context.
+        # Specifies the default embedded database profile ('h2') and Web UI profile ('console.ui').
+        # Replace 'h2' with your target database profile (e.g., 'mariadb', 'mysql') for external RDBMS.
+        # To run in headless node mode without Web UI, omit 'console.ui'.
         aspectran.profiles.base.console: h2,console.ui
+        # Sets the default system property for the main portal URL to return to from the Console UI,
+        # if not already specified via JVM system property (-Daspectow.console.portalUrl=<url>).
+        aspectow.console.portalUrl: /../
     }
 }
 context: {

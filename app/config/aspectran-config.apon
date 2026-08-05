@@ -35,11 +35,11 @@ context: {
         com.aspectran.aspectow.demo
     ]
     profiles: {
-        default: [
-            dev
-        ]
         base: [
             console.ui
+        ]
+        default: [
+            dev
         ]
     }
     autoReload: {

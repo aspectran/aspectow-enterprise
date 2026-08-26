@@ -33,6 +33,6 @@
         </settings>
     </aspect>
 
-    <append resource="com/aspectran/aspectow/demo/web-rules.xml"/>
+    <append resource="com/aspectran/aspectow/enterprise/demo/web-rules.xml"/>
 
 </aspectran>

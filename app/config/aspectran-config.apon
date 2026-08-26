@@ -32,7 +32,7 @@ context: {
         /lib/ext
     ]
     scan: [
-        com.aspectran.aspectow.demo
+        com.aspectran.aspectow.enterprise.demo
     ]
     profiles: {
         base: [

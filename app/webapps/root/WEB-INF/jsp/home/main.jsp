@@ -64,7 +64,7 @@
                 <a href="<aspectran:url value="https://public.aspectran.com/monitoring/"/>">Aspectow AppMon</a>
             </div>
             <div class="card-body">
-                <p class="card-text">Aspectow AppMon is a lightweight, real-time monitoring solution for applications based on the Aspectran framework.</p>
+                <p class="card-text">Aspectow AppMon is a lightweight, real-time application monitoring engine integrated into Aspectow Console, providing live metrics, request tracing, and log streaming.</p>
             </div>
         </div>
     </div>

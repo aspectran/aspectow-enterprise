@@ -10,7 +10,7 @@
     <environment>
         <property name="tow.server.listener.http.port" valueType="int">8081</property>
         <property name="tow.server.listener.http.host">0.0.0.0</property>
-        <property name="tow.server.domain">your.domain.com</property>
+        <property name="tow.server.domain"/>
     </environment>
 
     <environment>

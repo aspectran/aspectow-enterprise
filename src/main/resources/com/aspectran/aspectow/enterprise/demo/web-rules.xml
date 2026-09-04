@@ -7,7 +7,7 @@
         Aspectran configuration to configure the web environment.
     </description>
 
-    <bean id="jspViewDispatcher" class="com.aspectran.web.support.view.JspViewDispatcher">
+    <bean id="jspViewDispatcher" class="com.aspectran.web.servlet.support.view.JspViewDispatcher">
         <description>
             Register a JSP View Dispatcher.
         </description>

@@ -20,6 +20,14 @@ app: {
         target: tow.server/root
     }
     metric: {
+        id: cpu
+        title: CPU
+        description: Shows JVM process and system CPU usage
+        reader: com.aspectran.aspectow.appmon.engine.exporter.metric.jvm.CpuUsageReader
+        sampleInterval: 1000
+        heading: true
+    }
+    metric: {
         id: heap
         title: Heap
         description: Shows JVM Heap memory usage status
@@ -67,24 +75,6 @@ app: {
     event: {
         id: session
         target: tow.server/console
-    }
-    metric: {
-        id: heap
-        title: Heap
-        description: Shows JVM Heap memory usage status
-        reader: com.aspectran.aspectow.appmon.engine.exporter.metric.jvm.HeapMemoryUsageReader
-        sampleInterval: 500
-        heading: true
-    }
-    metric: {
-        id: undertow-tp
-        title: Undertow TP
-        description: Metrics of Undertow thread pool resources
-        reader: com.aspectran.aspectow.appmon.engine.exporter.metric.undertow.NioWorkerMetricsReader
-        target: tow.server
-        sampleInterval: 30
-        exportInterval: 900
-        heading: true
     }
     log: {
         id: console

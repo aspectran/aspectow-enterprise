@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib uri="http://aspectran.com/tags" prefix="aspectran" %>
+<%@ taglib prefix="aspectran" uri="aspectran.tags" %>
 <style>
     .card {
         transition: transform 0.2s ease-in-out;
